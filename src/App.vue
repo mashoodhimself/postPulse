@@ -2,10 +2,7 @@
 </script>
 
 <template>
-    
-    <login-component />
-    <register-component/>
-
+    <router-view></router-view>
 </template>
 
 <style scoped>

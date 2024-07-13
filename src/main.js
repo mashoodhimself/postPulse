@@ -11,10 +11,27 @@ import "./assets/css/style.css"
 import { createApp } from 'vue'
 import App from './App.vue'
 
+import { createRouter, createWebHistory } from 'vue-router';
+
 import LoginComponent from './components/LoginComponent.vue'
 import RegisterComponent from './components/RegisterComponent.vue'
+import DashboardComponent from './components/DashboardComponent.vue'
+
+
+const router = createRouter({
+    history: createWebHistory(),
+    routes: [
+        {path: '/login', component:LoginComponent},
+        {path: '/register', component:RegisterComponent},
+        {path: '/dashboard', component:DashboardComponent},
+    ]
+});
+
 
 const app = createApp(App);
-app.component('login-component', LoginComponent)
+
+app.use(router);
+
+app.component('login-component', LoginComponent);
 app.component('register-component', RegisterComponent);
-app.mount('#app')
+app.mount('#app');
