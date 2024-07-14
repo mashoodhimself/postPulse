@@ -16,7 +16,9 @@ import { createRouter, createWebHistory } from 'vue-router';
 import LoginComponent from './components/LoginComponent.vue'
 import RegisterComponent from './components/RegisterComponent.vue'
 import DashboardComponent from './components/DashboardComponent.vue'
-
+import ProfileComponent from './components/ProfileComponent.vue'
+import CreatePressReleaseComponent from './components/CreatePressReleaseComponent.vue'
+import PreviewPressReleaseComponent from './components/PreviewPressReleaseComponent.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -24,6 +26,9 @@ const router = createRouter({
         {path: '/login', component:LoginComponent},
         {path: '/register', component:RegisterComponent},
         {path: '/dashboard', component:DashboardComponent},
+        {path: '/profile', component:ProfileComponent},
+        {path: '/create/pressrelease', component:CreatePressReleaseComponent},
+        {path: '/preview/pressrelease', component:PreviewPressReleaseComponent},
     ]
 });
 
@@ -31,7 +36,4 @@ const router = createRouter({
 const app = createApp(App);
 
 app.use(router);
-
-app.component('login-component', LoginComponent);
-app.component('register-component', RegisterComponent);
 app.mount('#app');
