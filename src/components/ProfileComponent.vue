@@ -71,11 +71,6 @@
                                     </div>
 
                                     <div class="row">
-                                        <div class="col-lg-3 col-md-4 label">Company</div>
-                                        <div class="col-lg-9 col-md-8">Lueilwitz, Wisoky and Leuschke</div>
-                                    </div>
-
-                                    <div class="row">
                                         <div class="col-lg-3 col-md-4 label">Job</div>
                                         <div class="col-lg-9 col-md-8">Web Designer</div>
                                     </div>
@@ -86,8 +81,8 @@
                                     </div>
 
                                     <div class="row">
-                                        <div class="col-lg-3 col-md-4 label">Address</div>
-                                        <div class="col-lg-9 col-md-8">A108 Adam Street, New York, NY 535022</div>
+                                        <div class="col-lg-3 col-md-4 label">Website</div>
+                                        <div class="col-lg-9 col-md-8">s.mashood@icrowdnewswire.com</div>
                                     </div>
 
                                     <div class="row">
@@ -136,15 +131,6 @@
                                         </div>
 
                                         <div class="row mb-3">
-                                            <label for="company"
-                                                class="col-md-4 col-lg-3 col-form-label">Company</label>
-                                            <div class="col-md-8 col-lg-9">
-                                                <input name="company" type="text" class="form-control" id="company"
-                                                    value="Lueilwitz, Wisoky and Leuschke">
-                                            </div>
-                                        </div>
-
-                                        <div class="row mb-3">
                                             <label for="Job" class="col-md-4 col-lg-3 col-form-label">Job</label>
                                             <div class="col-md-8 col-lg-9">
                                                 <input name="job" type="text" class="form-control" id="Job"
@@ -162,11 +148,11 @@
                                         </div>
 
                                         <div class="row mb-3">
-                                            <label for="Address"
-                                                class="col-md-4 col-lg-3 col-form-label">Address</label>
+                                            <label for="website"
+                                                class="col-md-4 col-lg-3 col-form-label">Website</label>
                                             <div class="col-md-8 col-lg-9">
-                                                <input name="address" type="text" class="form-control" id="Address"
-                                                    value="A108 Adam Street, New York, NY 535022">
+                                                <input name="url" type="text" class="form-control" id="website"
+                                                    value="http://www.icrowdnewswire.com">
                                             </div>
                                         </div>
 

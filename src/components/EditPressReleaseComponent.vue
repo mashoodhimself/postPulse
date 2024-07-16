@@ -4,11 +4,11 @@
 
     <main id="main" class="main">
         <div class="pagetitle">
-            <h1>Create Press Release</h1>
+            <h1>Edit Press Release</h1>
             <nav>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item active">Create Press-Release</li>
+                    <li class="breadcrumb-item active">Edit Press-Release</li>
                 </ol>
             </nav>
         </div><!-- End Page Title -->
@@ -60,7 +60,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <router-link to="/preview/pressrelease" class="btn btn-primary">Save</router-link>
+                                        <router-link to="/preview/pressrelease" class="btn btn-primary">Update</router-link>
                                     </div>
                                 </div>
                             </form>

@@ -19,6 +19,9 @@ import DashboardComponent from './components/DashboardComponent.vue'
 import ProfileComponent from './components/ProfileComponent.vue'
 import CreatePressReleaseComponent from './components/CreatePressReleaseComponent.vue'
 import PreviewPressReleaseComponent from './components/PreviewPressReleaseComponent.vue'
+import EditPressReleaseComponent from './components/EditPressReleaseComponent.vue'
+import CheckoutComponent from './components/CheckoutComponent.vue'
+import PackageComponent from './components/PackageComponent.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -28,7 +31,10 @@ const router = createRouter({
         {path: '/dashboard', component:DashboardComponent},
         {path: '/profile', component:ProfileComponent},
         {path: '/create/pressrelease', component:CreatePressReleaseComponent},
+        {path: '/packages', component:PackageComponent},
         {path: '/preview/pressrelease', component:PreviewPressReleaseComponent},
+        {path: '/edit/pressrelease', component:EditPressReleaseComponent},
+        {path: '/checkout/pressrelease', component:CheckoutComponent},
     ]
 });
 

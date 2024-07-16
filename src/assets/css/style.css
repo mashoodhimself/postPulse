@@ -1231,3 +1231,44 @@ h6 {
   font-size: 13px;
   color: #012970;
 }
+
+.preview__action_btns_cont {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.preview__action_btns_cont a {
+  border-radius: 0px;
+  margin-left: 10px;
+}
+
+.coupon__form_checkout {
+  display: flex;
+}
+
+.coupon__form_checkout button {
+  margin-left: 10px;
+  border-radius: 0px;
+}
+
+.checkout_info_row {
+  margin-top: 50px;
+}
+
+.checkout_info_row table {
+  width: 50%;
+  border: 2px; 
+  margin-top: 20px;
+}
+
+.payment_options_cont button {
+  border-radius: 0px;
+  margin-right: 10px;
+}
+
+.product_items div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
