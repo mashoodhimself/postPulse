@@ -20,12 +20,14 @@
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-body">
-                            <table class="table">
+                            <DataTable class="display">
                                 <thead>
-                                    <th>ID</th>
-                                    <th>Press Release</th>
-                                    <th>Status</th>
-                                    <th>Action</th>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Press Release</th>
+                                        <th>Status</th>
+                                        <th>Action</th>
+                                    </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
@@ -53,7 +55,7 @@
                                         <td> - </td>
                                     </tr>
                                 </tbody>
-                            </table>
+                            </DataTable>
                         </div>
                     </div>
                 </div>
@@ -72,11 +74,21 @@ import Header from './includes/HeaderComponent.vue';
 import Aside from './includes/AsideComponent.vue';
 import Footer from './includes/FooterComponent.vue';
 
+import DataTablesLib from 'datatables.net'; 
+import DataTable from 'datatables.net-vue3';
+ 
+DataTable.use(DataTablesLib);
+
 export default {
     components: {
         Header,
         Aside,
         Footer,
+        DataTable
     }
 }
 </script>
+
+<style>
+    @import 'datatables.net-dt'; 
+</style>
